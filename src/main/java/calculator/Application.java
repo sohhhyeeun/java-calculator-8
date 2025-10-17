@@ -11,7 +11,7 @@ public class Application {
         input = input.replace("\\n", "\n");
 
         StringCalculator stringCalculator = new StringCalculator();
-        int output = stringCalculator.add(input);
+        int output = stringCalculator.divide(input);
 
         System.out.println(output);
     }
