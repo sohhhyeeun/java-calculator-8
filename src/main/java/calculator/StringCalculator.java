@@ -6,6 +6,6 @@ public class StringCalculator {
             return 0;
         }
 
-        return 1; //임시 반환값
+        return Integer.parseInt(str);
     }
 }
