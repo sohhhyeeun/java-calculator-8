@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class StringCalculator {
-    public int divide(String str) {
+    public int add(String str) {
         if (str == null || str.isEmpty()) {
             return 0;
         }
@@ -20,10 +20,10 @@ public class StringCalculator {
 
         String[] nums = numString.split(delimiter);
 
-        return add(nums);
+        return sum(nums);
     }
 
-    private int add(String[] nums) {
+    private int sum(String[] nums) {
         int sum = 0;
 
         for (String num : nums) {

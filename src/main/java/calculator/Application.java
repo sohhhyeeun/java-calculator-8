@@ -11,8 +11,8 @@ public class Application {
         input = input.replace("\\n", "\n");
 
         StringCalculator stringCalculator = new StringCalculator();
-        int output = stringCalculator.divide(input);
+        int output = stringCalculator.add(input);
 
-        System.out.println(output);
+        System.out.println("결과 : " + output);
     }
 }
